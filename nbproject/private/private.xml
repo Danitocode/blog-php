@@ -6,5 +6,9 @@
             <file>file:/C:/wamp64/www/blog-php/index.php</file>
             <file>file:/C:/wamp64/www/blog-php/autoload.php</file>
         </group>
+        <group name="prj">
+            <file>file:/C:/wamp64/www/prj/blog-php/autoload.php</file>
+            <file>file:/C:/wamp64/www/prj/blog-php/index.php</file>
+        </group>
     </open-files>
 </project-private>

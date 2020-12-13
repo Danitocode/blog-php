@@ -1,24 +1,27 @@
 <?php
+require_once 'autoload.php';
 
-require 'autoload.php';
 
 if(isset($_GET['controller'])){
-	$controllerName = $GET['controller'].'Controller';
+	$nombre_controlador = $_GET['controller'];
 }else{
-	echo"La pagina que buscas no existe";
+	echo 'La pagina no existe';
 	exit();
 }
 
-if(class_exists($controllerName)){
-	$controller = new $controllerName();
-
-	if(isset($_GET['action']) && method_exists($controller, $_GET['action'])){
+if(class_exists($nombre_controlador)){	
+	$controlador = new $nombre_controlador();
+	
+	if(isset($_GET['action']) && method_exists($controlador, $_GET['action'])){
 		$action = $_GET['action'];
-		$controller->$action();
+		$controlador->$action();
 	}else{
-		echo 'La pagina que buscas no existe';
+		echo 'La pagina no existe';
 	}
-
 }else{
-	echo "La pagina que buscas no existe";
+	echo 'La pagina no existe';
+
 }
+
+
+
