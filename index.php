@@ -1,5 +1,7 @@
 <?php
 require_once 'autoload.php';
+require 'views/layout/header.php';
+require 'views/layout/sidebar.php';
 
 
 if(isset($_GET['controller'])){
@@ -23,5 +25,5 @@ if(class_exists($nombre_controlador)){
 
 }
 
-
+require 'views/layout/footer.php';
 
