@@ -1,5 +1,5 @@
 <?php
-
+require_once 'model/Usuario';
 class UserController{
 	public function index(){
 		echo "Controlador usuarios, Acción index";
@@ -10,7 +10,7 @@ class UserController{
 
 	public function save() {
 		if(isset($_POST)){
-			var_dump($_POST);
+			NEW_Usuario($_POST);
 		}
 	}
 }

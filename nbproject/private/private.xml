@@ -7,7 +7,8 @@
             <file>file:/C:/wamp64/www/blog-php/autoload.php</file>
         </group>
         <group name="prj">
-            <file>file:/C:/wamp64/www/prj/blog-php/config/parameters.php</file>
+            <file>file:/C:/wamp64/www/prj/blog-php/models/Usuario.php</file>
+            <file>file:/C:/wamp64/www/prj/blog-php/controllers/UserController.php</file>
             <file>file:/C:/wamp64/www/prj/blog-php/index.php</file>
             <file>file:/C:/wamp64/www/prj/blog-php/views/producto/destacados.php</file>
         </group>
