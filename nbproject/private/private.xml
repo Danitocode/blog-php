@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/wamp64/www/blog-php/index.php</file>
-            <file>file:/C:/wamp64/www/blog-php/autoload.php</file>
-        </group>
         <group name="prj">
-            <file>file:/C:/wamp64/www/prj/blog-php/models/Usuario.php</file>
-            <file>file:/C:/wamp64/www/prj/blog-php/controllers/UserController.php</file>
-            <file>file:/C:/wamp64/www/prj/blog-php/index.php</file>
-            <file>file:/C:/wamp64/www/prj/blog-php/views/producto/destacados.php</file>
+            <file>file:/C:/wamp64/www/prj/tienda_master/views/usuario/registro.php</file>
+            <file>file:/C:/wamp64/www/prj/tienda_master/controllers/UsuarioController.php</file>
+            <file>file:/C:/wamp64/www/prj/tienda_master/models/usuario.php</file>
         </group>
     </open-files>
 </project-private>

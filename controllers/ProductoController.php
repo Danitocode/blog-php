@@ -1,8 +1,10 @@
 <?php
 
-
-class ProductoController{
+class productoController{
+	
 	public function index(){
-		require_once "views/producto/destacados.php";
+		require_once 'views/producto/destacados.php';
 	}
+	
+	
 }

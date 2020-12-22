@@ -1,12 +1,10 @@
 <?php
-session_start();
+session_start(); //Iniciar sesión
 require_once 'autoload.php';
+require_once 'config/db.php';
 require_once 'config/parameters.php';
 require_once 'views/layout/header.php';
 require_once 'views/layout/sidebar.php';
-require_once 'config/db.php';
-
-$db = Database::connect();
 
 function show_error(){
 	$error = new errorController();
@@ -41,6 +39,5 @@ if(class_exists($nombre_controlador)){
 }
 
 require_once 'views/layout/footer.php';
-
 
 

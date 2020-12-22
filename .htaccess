@@ -1,8 +1,7 @@
 <IfModule mod_rewrite.c>
-#Rewrite engine on
-
+# Activar rewrite
 RewriteEngine on
-ErrorDocument 404 http://localhost/prj/blog-php/error/index
+ErrorDocument 404 http://localhost/master-php/proyecto-php-poo/error/index
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
