@@ -128,6 +128,13 @@ td{
 #menu a:hover{
     background: #01B1EA;
 }
+.alert_green{
+    color:green;
+}
+
+.alert_red{
+    color:red;
+}
 
 /*CONTENT*/
 #content{
