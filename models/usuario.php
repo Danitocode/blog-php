@@ -99,9 +99,7 @@ class Usuario{
 			$verify = password_verify($password, $usuario->password);
 			
 			if($verify){
-				$result = true;
-			}else{
-				$result = false;
+				$result = $usuario;
 			}
 		}
 		
