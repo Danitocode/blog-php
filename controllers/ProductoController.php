@@ -38,6 +38,15 @@ class productoController {
 				$producto->setPrecio($precio);
 				$producto->setStock($stock);
 				$producto->setCategoria_id($categoria);
+				
+				//Guardar imagen
+				
+				$file = $_FILES['imagen'];
+				$filename = $file['name'];
+				$mimetype = $file['type'];
+				
+				if($mimetype == "image/jpg" || )
+				
 
 				$save = $producto->save();
 				if ($save) {
