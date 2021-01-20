@@ -6,4 +6,4 @@ A nice php shop done by me
 
 
 
-(https://github-readme-stats.vercel.app/api/wakatime?username=danitocode)](https://github.com/anuraghazra/github-readme-stats)
+(https://github-readme-stats.vercel.app/api/wakatime?username=Danitocode)](https://github.com/anuraghazra/github-readme-stats)
