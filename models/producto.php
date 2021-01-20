@@ -100,8 +100,6 @@ class Producto {
 		$save = $this->db->query($sql);
 		
 		
-		echo $this->db->error;
-		die();
 		
 		
 		$result = false;

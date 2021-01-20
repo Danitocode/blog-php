@@ -42,17 +42,18 @@ class productoController {
 				$save = $producto->save();
 				if ($save) {
 					$_SESSION['producto'] = "complete";
+
 				} else {
 					$_SESSION['producto'] = "failed";
+
 				}
 			} else {
 				$_SESSION['producto'] = "failed";
+
 			}
-		} else {
-			$_SESSION['producto'] = "failed";
-		}
-		
+		} 
 		header('Location:'.base_url.'producto/gestion');
+
 	}
 
 }
